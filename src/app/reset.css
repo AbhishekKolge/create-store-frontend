@@ -1,0 +1,72 @@
+.css-b62m3t-container {
+  height: 100% !important;
+}
+
+.css-13cymwt-control {
+  height: 100% !important;
+  font-size: 1.4rem !important;
+  background-color: transparent !important;
+  border: 1px solid var(--clr-dark-3) !important;
+  filter: drop-shadow(0px 1px 0px rgba(0, 0, 0, 0.05)) !important;
+  border-radius: 0.4rem !important;
+}
+
+.select .css-13cymwt-control {
+  border: 0 !important;
+  border-bottom: 0.5px solid var(--clr-light-2) !important;
+  filter: drop-shadow(0px 1px 0px rgba(0, 0, 0, 0.05)) !important;
+  border-radius: 0 !important;
+}
+
+.css-t3ipsp-control {
+  height: 100% !important;
+  font-size: 1.4rem !important;
+  background-color: transparent !important;
+  border: 1px solid var(--clr-dark-3) !important;
+  filter: drop-shadow(0px 1px 0px rgba(0, 0, 0, 0.05)) !important;
+  border-radius: 0.4rem !important;
+  box-shadow: none !important;
+}
+.select .css-t3ipsp-control {
+  border: 0 !important;
+  border-bottom: 0.5px solid var(--clr-light-2) !important;
+  filter: drop-shadow(0px 1px 0px rgba(0, 0, 0, 0.05)) !important;
+  border-radius: 0 !important;
+}
+
+.css-1u9des2-indicatorSeparator {
+  display: none !important;
+}
+
+.css-1fdsijx-ValueContainer {
+  padding-right: 0 !important;
+}
+
+.css-1xc3v61-indicatorContainer,
+.css-15lsz6c-indicatorContainer,
+.css-1xc3v61-indicatorContainer:hover,
+.css-15lsz6c-indicatorContainer:hover {
+  padding-left: 0.2rem !important;
+  color: var(--clr-light-2) !important;
+}
+
+.css-1nmdiq5-menu {
+  background-color: transparent;
+  border-radius: 0.4rem;
+}
+
+.css-1nmdiq5-menu div {
+  background-color: var(--clr-light-5);
+  border-radius: 0.4rem;
+  text-align: center;
+}
+
+.select .css-1dimb5e-singleValue {
+  color: var(--clr-light-2) !important;
+  font-size: 1.4rem !important;
+}
+
+.select .css-1jqq78o-placeholder {
+  color: var(--clr-light-2) !important;
+  font-size: 1.4rem !important;
+}

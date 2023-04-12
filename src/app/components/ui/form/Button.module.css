@@ -1,0 +1,14 @@
+.btn {
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding: 1.5rem 3rem;
+  background: linear-gradient(
+    165.69deg,
+    var(--clr-primary-4) 4.49%,
+    var(--clr-secondary-1) 113.71%
+  );
+  border-radius: 0.5rem;
+  color: var(--clr-light-1);
+  text-align: center;
+  border: 0;
+}

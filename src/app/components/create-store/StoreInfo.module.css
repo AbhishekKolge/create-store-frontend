@@ -1,0 +1,40 @@
+.light {
+  opacity: 0.3;
+}
+
+.link {
+  color: var(--clr-primary-5);
+  display: inline-block;
+}
+
+.titleContainer {
+  display: grid;
+  gap: 1rem;
+}
+
+.titleContainer h3 {
+  font-weight: 600;
+  font-size: 3.2rem;
+  background: linear-gradient(
+    303.01deg,
+    var(--clr-primary-4) -4.4%,
+    var(--clr-secondary-2) 111.29%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.titleContainer p {
+  font-size: 1.4rem;
+  color: var(--clr-light-5);
+  line-height: 180%;
+}
+
+.container {
+  display: grid;
+  gap: 5rem;
+}

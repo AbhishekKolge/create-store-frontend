@@ -1,0 +1,46 @@
+.header {
+  margin: 3rem 0;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  padding: 0 !important;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 3rem;
+  text-transform: uppercase;
+  background: linear-gradient(
+    303.01deg,
+    var(--clr-primary-4) -4.4%,
+    var(--clr-secondary-2) 111.29%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.footer {
+  margin: 5rem 0;
+}
+
+.footerText {
+  font-size: 1.4rem;
+  color: var(--clr-light-5);
+  text-transform: capitalize;
+}
+
+.footerText span {
+  background: linear-gradient(
+    303.01deg,
+    var(--clr-primary-4) -4.4%,
+    var(--clr-secondary-2) 111.29%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

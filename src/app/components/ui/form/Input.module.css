@@ -1,0 +1,31 @@
+.inputContainer {
+  display: grid;
+  gap: 1rem;
+}
+
+.label {
+  line-height: 2rem;
+}
+
+.inputWrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.input,
+.input:-internal-autofill-selected {
+  padding: 1.5rem 1.3rem;
+  font-size: 1.4rem;
+  background-color: transparent !important;
+  border: 1px solid var(--clr-dark-3);
+  filter: drop-shadow(0px 1px 0px rgba(0, 0, 0, 0.05));
+  border-radius: 0.4rem;
+  flex: 1;
+}
+
+.errorText {
+  color: var(--clr-error-1);
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}

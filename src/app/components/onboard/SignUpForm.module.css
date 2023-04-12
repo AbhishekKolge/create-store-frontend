@@ -1,0 +1,123 @@
+.helperText {
+  font-size: 1.2rem;
+  color: var(--clr-light-6);
+}
+
+.helperText .highlight {
+  background: linear-gradient(
+    303.01deg,
+    var(--clr-primary-4) -4.4%,
+    var(--clr-secondary-2) 111.29%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-weight: 600;
+}
+
+.helperTextSecondary {
+  font-size: 1.2rem;
+  color: var(--clr-light-3);
+  text-align: center;
+}
+
+.helperTextTertiary {
+  font-size: 1.4rem;
+  font-weight: 300;
+  opacity: 0.6;
+  width: 80%;
+  justify-self: center;
+  line-height: 2.1rem;
+}
+
+.signInCard {
+  width: 57rem;
+  background: radial-gradient(
+      145.46% 122.03% at 88.28% 10.25%,
+      rgba(222, 164, 242, 0.1) 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    radial-gradient(
+      93.02% 80.9% at 22.44% 86.73%,
+      rgba(110, 111, 248, 0.1) 0%,
+      rgba(110, 111, 248, 0) 100%
+    ),
+    linear-gradient(
+      131.02deg,
+      rgba(104, 108, 248, 0.059) 10.34%,
+      rgba(236, 171, 241, 0.059) 90.18%
+    ),
+    #060519;
+  border-radius: 2rem;
+  padding: 5.2rem 4.5rem;
+  display: grid;
+  gap: 5rem;
+}
+
+.headingContainer {
+  display: grid;
+  gap: 1.3rem;
+}
+
+.headingContainer h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.headingContainer .helperText {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.formContainer {
+  display: grid;
+  gap: 3rem;
+}
+
+.resendBtn {
+  background-color: transparent;
+  color: inherit;
+  font-weight: 600;
+  border: none;
+  font-size: 1.2rem;
+}
+
+.inputWrapper {
+  display: grid;
+  align-items: center;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.errorText {
+  color: var(--clr-error-1);
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+@media screen and (max-width: 50em) {
+  .signInCard {
+    width: 60rem;
+    padding: 3.4rem 3rem;
+  }
+
+  .inputWrapper {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .socialBtnContainer {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 35em) {
+  .signInCard {
+    width: auto;
+    padding: 2.6rem 2.2rem;
+  }
+}
